@@ -1,0 +1,47 @@
+{
+  "name": "NIAZI-MD",
+  "description": "NIAZI-MD, your friendly WhatsApp assistant!",
+  "logo": "https://files.catbox.moe/sdispu.jpg",
+  "keywords": ["whatsapp-bot", "niazi-md", "bot", "automation"],
+  "repository": "https://github.com/NIAZI-MD00/NIAZI-MD-",
+  "stack": "container",
+  "addons": [
+    {
+      "plan": "heroku-postgresql"
+    }
+  ],
+  "scripts": {
+    "start": "node index.js"
+  },
+  "env": {
+    "SESSION_ID": {
+      "description": "Must begin with 'NIAZI-MD~' or 'NIAZI-BOT~'.",
+      "value": "",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "Your bot name",
+      "value": "NIAZI-MD",
+      "required": true
+    },
+    "OWNER_NUMBER": {
+      "description": "Owner WhatsApp number with country code",
+      "value": "",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick.git"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
