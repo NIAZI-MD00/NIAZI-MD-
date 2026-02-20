@@ -1,81 +1,203 @@
-# HAMZA-MD WhatsApp Bot 🚀
+
+# Create a clean, single file version that's easy to copy
+niazi_readme_simple = '''<p align="center">
+  <img src="https://files.catbox.moe/w4bzqw.jpg" alt="NIAZI-MD Menu" width="600"/>
+</p>
+
+![WELLCOME](Shaban/wellcome.svg)
+  
+______
+
+[![NIAZI-MD](https://raw.githubusercontent.com/MRSHABAN45/SHABAN-MD/main/Shaban/mr.svg)](https://whatsapp.com/channel/0029VbByXON8KMqcY2Ilj53s)
+___ 
+
+<p align="center">
+  <a href="https://github.com/MRSHABAN45" target="_blank">
+    <img src="./Shaban/dev-gold-mini.svg" width="300" alt="Developer — NIAZI-MD (Gold 3D)">
+  </a>
+</p>
+
+  
+<p align="center">
+  <a href="https://whatsapp.com/channel/0029VbByXON8KMqcY2Ilj53s" target="_blank">
+    <img src="./Shaban/channel-update.svg" width="350" alt="Bot Updating — WhatsApp Channel | Join Fast">
+  </a>
+</p>
+
+---------
+
+<p align="center">
+<a href="https://github.com/MRSHABAN45/SHABAN-MD"><img title="PUBLIC-BOT" src="https://img.shields.io/static/v1?label=Language&message=JavaScript&style=square&color=darkpink"></a> &nbsp;
+  <img src="https://komarev.com/ghpvc/?username=NIAZI-MD&label=VIEWS&style=square&color=blue" />
+</p>
+
+
+-------------
+
+<p align="center">
+<img src="Shaban/feature-bot.svg" alt="Feature Bot" width="900"/>
+  
+<p align="center">
+<img src="Shaban/license.svg" alt="License" width="200"/>
+
+--------------
+
+<p align="center">
+<img src="Shaban/maintenance.svg" alt="Maintenance" width="120"/>
+
+
+ <p align="center">
+  <a href="https://github.com/MRSHABAN45/SHABAN-MD/fork" target="_blank">
+    <img src="Shaban/forkstar-holo.svg" width="180" alt="Fork Star Bot Repo"/>
+  </a>
+</p>
+
+
+<p align="center">
+  <a href="https://smd-pair.zone.id/" target="_blank">
+    <img src="./Shaban/paircode-link.svg" width="195" alt="PAIR_CODE – Device Session ID">
+  </a>
+</p>
+
+-------------
+
+<p align="center">
+  <img src="./Shaban/deployment.svg" width="600" alt="NIAZI MD — News Ticker Typing">
+</p>
 
 <div align="center">
-  <img src="https://files.catbox.moe/yo3dh6.jpg" width="200" height="200" style="border-radius: 20px; border: 3px solid #25D366; box-shadow: 0 0 20px #25D366;">
-  
-  ### HAMZA-MD - The Ultimate WhatsApp Bot
-  <p>Advanced WhatsApp bot with 100+ features, multi-language support, and easy deployment</p>
-  
-  ![Version](https://img.shields.io/badge/Version-1.8.7-green)
-  ![Node](https://img.shields.io/badge/Node.js-20.x-blue)
-  ![License](https://img.shields.io/badge/License-MIT-yellow)
-  ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+  <table>
+    <tr>
+      <td><a href="https://dashboard.heroku.com/new-app?template=https://github.com/MRSHABAN45/SHABAN-MD" target="_blank"><img src="https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white&labelColor=000000&color=0000FF"/></a></td>
+      <td><a href="https://bot-hosting.net/?aff=1335487206948864030" target="_blank"><img src="https://img.shields.io/badge/Bot-Hosting-A52A2A?style=for-the-badge&logo=firefoxbrowser&logoColor=white&labelColor=000000"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://app.koyeb.com/deploy?name=niazi-md-koyeb&type=git&repository=MRSHABAN45%2FSHABAN-MD&branch=main&builder=dockerfile&instance_type=free&regions&=was&env%5BSESSION_ID%5D=" target="_blank"><img src="https://img.shields.io/badge/KOYEB-APP-FF009D?style=for-the-badge&logo=koyeb&logoColor=white&labelColor=000000"/></a></td>
+      <td><a href="https://railway.app/new" target="_blank"><img src="https://img.shields.io/badge/Railway-000080?style=for-the-badge&logo=railway&logoColor=white&labelColor=000000"/></a></td>
+    </tr>
+    <tr>
+      <td><a href="https://dashboard.katabump.com/auth/login#3c8183" target="_blank"><img src="https://img.shields.io/badge/KataBump-000000?style=for-the-badge&logo=render&logoColor=white&labelColor=000000&color=FFFF00"/></a></td>
+      <td><a href="https://www.smd-host.site/" target="_blank"><img src="https://img.shields.io/badge/Free-host-CC00FF?style=for-the-badge&logo=googlechrome&logoColor=white&labelColor=000000"/></a></td>
+    </tr>
+  </table>
 </div>
 
+<table align="center">
+  <tr>
+    <td>
+      <a href="https://github.com/iTx-Sarkar/SMD-Render" target="_blank">
+        <img alt="Deploy From Render" src="https://img.shields.io/badge/Deploy-Only%20Render%20Repo-4CAF50?style=for-the-badge&logo=render&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
+</table>  
+
+-------------
+
+**_✠ FREE DEPLOYMENT OF NIAZI MD GITHUB WORKFLOW CODE NEW ADD ERROR FIXED ✠_**
+
+```yaml
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [24.x]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        check-latest: true
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build project (optional)
+      run: npm run build || echo "No build script found, skipping..."
+
+    - name: Start application
+      run: npm start
+```
+
+-------
+
+<p align="center">
+  <img src="https://i.imgur.com/LyHic3i.gif" alt="divider"/>
+</p>
+
+
+> 🔔 Stay Connected For Updates Feature Drops And Tutorials!
+
+<a href="https://chat.whatsapp.com/GRXojyoGnpNDV3vRRDBOK6?mode=gi_t" target="_blank">
+  <img src="Shaban/youtube.svg" alt="WhatsApp Group" width="250"/>
+</a>
+
+<p align="center">
+  <img src="https://i.imgur.com/LyHic3i.gif" alt="footer divider"/>
+</p>
+
+## ⚠️ _WARNING !_
+
+<div style="background-color: #000000; border-left: 5px solid #ff00ff; padding: 10px; border-radius: 0 15px 15px 0; box-shadow: 0 0 15px #ff00ff;">
+  <h3 style="color: #00ffff; font-family: 'Orbitron', sans-serif;">DISCLAIMER</h3>
+  <p style="color: #ffffff;">This Bot Is Not Affiliated With WhatsApp Inc. Use At Your Own Risk Misuse May Result In Account Bans</p>
+</div>
+
+
+<p align="center">
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%" alt="divider"/>
+</p>
+
+<!-- New Animated Contributors -->
+<div style="margin-top:20px">
+
+[![Contributors](https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=1000&color=58A6FF&background=00000000&center=true&vCenter=true&width=500&lines=THANKS+TO+ALL+CONTRIBUTORS+%F0%9F%99%8F;SPECIAL+THANKS+TO+OUR+STAR+SUPPORTERS+%E2%AD%90)](https://github.com/MRSHABAN45/SHABAN-MD/graphs/contributors)
+
+</div>
+
+ <p align="center"> <a href="https://github.com/MRSHABAN45/SHABAN-MD/stargazers"> <img src="http://reporoster.com/stars/dark/MRSHABAN45/SHABAN-MD" alt="Stargazers Repo Roster For @MRSHABAN45/SHABAN-MD"> </a> </p> <p align="center"> <a href="https://github.com/MRSHABAN45/SHABAN-MD/network/members"> <img src="http://reporoster.com/forks/dark/MRSHABAN45/SHABAN-MD" alt="Forkers Repo Roster For @MRSHABAN45/SHABAN-MD"> </a> </p> 
+
+
+<p align="center">
+<img src="Shaban/nolove.svg" alt="NoLove" width="250"/>
+
 ---
 
-## ✨ Features
+## 👤 Owner Information
 
-✅ **200+ Commands**  
-✅ **Multi-Device Support**  
-✅ **AI Features (GPT, Gemini, DALL-E)**  
-✅ **Media Tools (Sticker, Image Edit, Video)**  
-✅ **Games & Entertainment**  
-✅ **Group Management**  
-✅ **Anti-Spam Protection**  
-✅ **Multi-Language Support**  
-✅ **Database Support (SQLite, PostgreSQL)**  
-✅ **24/7 Uptime**
+- **Name:** NIAZI-MD
+- **Number:** 933220225993
+- **WhatsApp Group:** [Join Group](https://chat.whatsapp.com/GRXojyoGnpNDV3vRRDBOK6?mode=gi_t)
+- **WhatsApp Channel:** [Join Channel](https://whatsapp.com/channel/0029VbByXON8KMqcY2Ilj53s)
 
 ---
 
-## 🚀 Quick Deploy
+<p align="center">
+  <b>© 2025 NIAZI-MD. All Rights Reserved.</b>
+</p>
+'''
 
-### **One-Click Deploy Buttons:**
+# Save to file
+with open('/mnt/kimi/output/NIAZI-MD-README.md', 'w', encoding='utf-8') as f:
+    f.write(niazi_readme_simple)
 
-| Platform | Deploy Button | Status |
-|----------|---------------|---------|
-| **Heroku** | [![Deploy on Heroku](https://img.shields.io/badge/Deploy-Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://dashboard.heroku.com/new-app?template=https://github.com/HAMZA-MD00/HAMZA-MD) | ✅ Active |
-| **Railway** | [![Deploy on Railway](https://img.shields.io/badge/Deploy-Railway-000080?style=for-the-badge&logo=railway&logoColor=white)](https://railway.app/new/template?template=https://github.com/HAMZA-MD00/HAMZA-MD) | ✅ Active |
-| **Koyeb** | [![Deploy on Koyeb](https://img.shields.io/badge/Deploy-Koyeb-FF009D?style=for-the-badge&logo=koyeb&logoColor=white)](https://app.koyeb.com/deploy?name=hamza-md&type=git&repository=HAMZA-MD00/HAMZA-MD&branch=main&builder=dockerfile) | ✅ Active |
-| **Replit** | [![Run on Replit](https://img.shields.io/badge/Deploy-Replit-FF6B6B?style=for-the-badge&logo=replit&logoColor=white)](https://replit.com/github/HAMZA-MD00/HAMZA-MD) | ✅ Active |
-| **Render** | [![Deploy to Render](https://img.shields.io/badge/Deploy-Render-4CAF50?style=for-the-badge&logo=render&logoColor=white)](https://render.com/deploy?repo=https://github.com/HAMZA-MD00/HAMZA-MD) | ✅ Active |
-| **Vercel** | [![Deploy with Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vercel.com/new/clone?repository-url=https://github.com/HAMZA-MD00/HAMZA-MD) | ✅ Active |
-
-### **Other Hosting Options:**
-
-| Service | Button |
-|---------|---------|
-| **Fly.io** | [![Fly.io](https://img.shields.io/badge/Fly.io-8A2BE2?style=for-the-badge&logo=fly.io&logoColor=white)](https://fly.io/) |
-| **Coolify** | [![Coolify](https://img.shields.io/badge/Coolify-FF6B35?style=for-the-badge&logo=cloud&logoColor=white)](https://coolify.io/) |
-| **PikaPods** | [![PikaPods](https://img.shields.io/badge/PikaPods-FF4088?style=for-the-badge&logo=linux&logoColor=white)](https://www.pikapods.com/) |
-| **Cyclic** | [![Cyclic](https://img.shields.io/badge/Cyclic-00A8E8?style=for-the-badge&logo=cyclic&logoColor=white)](https://www.cyclic.sh/) |
-| **Northflank** | [![Northflank](https://img.shields.io/badge/Northflank-00C853?style=for-the-badge&logo=northflank&logoColor=white)](https://northflank.com/) |
-
----
-
-## 📦 Manual Installation
-
-### **Prerequisites:**
-- Node.js 18.x or higher
-- Git
-- WhatsApp account (secondary recommended)
-
-### **Step-by-Step Setup:**
-
-```bash
-# 1. Clone repository
-git clone https://github.com/HAMZA-MD00/HAMZA-MD.git
-
-# 2. Navigate to folder
-cd HAMZA-MD
-
-# 3. Install dependencies
-npm install
-
-# 4. Configure environment
-cp .env.example .env
-# Edit .env file with your settings
-
-# 5. Start the bot
-npm start
+print("✅ File saved successfully!")
+print("\n📁 File location: /mnt/kimi/output/NIAZI-MD-README.md")
+print("\n💡 Aap is file ko download kar sakte hain ya neeche diye gaye code ko copy kar sakte hain.")
